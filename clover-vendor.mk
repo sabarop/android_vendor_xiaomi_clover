@@ -346,5 +346,4 @@ PRODUCT_PACKAGES += \
     libdualcameraddm \
     libmmlib2d_interface \
     libts_detected_face_hal \
-    libts_face_beautify_hal \
-    QFingerprintService
+    libts_face_beautify_hal
