@@ -27,7 +27,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libFaceGrade.so"],
-			shared_libs: ["liblog", "libandroid", "libstdc++_vendor", "libm", "libc", "libdl", ],
+			shared_libs: ["liblog", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
@@ -44,7 +44,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libXMFD_AgeGender.so"],
-			shared_libs: ["liblog", "libc", "libm", "libstdc++_vendor", "libdl", ],
+			shared_libs: ["liblog", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
@@ -61,7 +61,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/lib_lowlight.so"],
-			shared_libs: ["liblog", "libstdc++_vendor", "libm", "libc", "libdl", ],
+			shared_libs: ["liblog", "libc", "libm", "libstdc++_vendor", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
