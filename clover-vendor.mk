@@ -56,28 +56,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/firmware/tas2557s_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557s_uCDSP.bin
 
 PRODUCT_PACKAGES += \
-    libmmcamera2_frame_algorithm \
-    libmmcamera2_is \
-    libmmcamera2_q3a_core \
-    libmmcamera2_stats_algorithm \
-    libmmcamera2_stats_lib \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
-    libmmcamera_tintless_algo \
-    libmmcamera_tintless_bg_pca_algo \
-    libscveBlobDescriptor \
-    libscveBlobDescriptor_stub \
-    libscveFaceLandmarks \
-    libscveFaceLandmarks_stub \
-    libscveFaceRecognition \
-    libscveImageCorrection \
-    libscvePanorama \
-    libscvePanorama_lite \
-    libts_detected_face_hal \
-    libts_face_beautify_hal \
-    libvideoutils \
+    libFaceGrade \
+    libXMFD_AgeGender \
+    lib_lowlight \
     libactuator_bu64297_f13v10l \
     libactuator_rohm_bu64243gwz \
+    libarcsoft_beautyshot \
     libarcsoft_high_dynamic_range \
     libchromatix_csidtg_common \
     libchromatix_csidtg_cpp_preview \
@@ -191,16 +175,22 @@ PRODUCT_PACKAGES += \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
+    libmm-qcamera \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
+    libmmcamera2_frame_algorithm \
     libmmcamera2_iface_modules \
     libmmcamera2_imglib_modules \
+    libmmcamera2_is \
     libmmcamera2_isp_modules \
     libmmcamera2_mct \
     libmmcamera2_mct_shimlayer \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
+    libmmcamera2_q3a_core \
     libmmcamera2_sensor_modules \
+    libmmcamera2_stats_algorithm \
+    libmmcamera2_stats_lib \
     libmmcamera2_stats_modules \
     libmmcamera_bokeh \
     libmmcamera_csidtg \
@@ -211,6 +201,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
     libmmcamera_facedetection_lib \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmmcamera_hdr_gb_lib \
     libmmcamera_hvx_add_constant \
     libmmcamera_hvx_grid_sum \
@@ -272,6 +264,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_s5k5e8 \
     libmmcamera_sw2d_lib \
     libmmcamera_thread_services \
+    libmmcamera_tintless_algo \
+    libmmcamera_tintless_bg_pca_algo \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
@@ -285,5 +279,16 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
+    libscveBlobDescriptor \
+    libscveBlobDescriptor_stub \
+    libscveFaceLandmarks \
+    libscveFaceLandmarks_stub \
+    libscveFaceRecognition \
+    libscveImageCorrection \
+    libscvePanorama \
+    libscvePanorama_lite \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     libvideobokeh \
+    libvideoutils \
     fingerprint.fpc.default
